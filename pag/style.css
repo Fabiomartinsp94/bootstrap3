@@ -1,0 +1,83 @@
+#paineis-sobre{
+    margin-top: 20px;
+}
+
+.panel-heading{
+    margin:2px;
+}
+
+.depoimentos{
+    background:rgb(98, 82, 189);
+    color: #fefefe;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom:0px;
+}
+
+
+.contatos, .radiogp {
+    width:49%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+footer{
+    color: #fefefe;
+    background: #333333;
+    padding:20px;
+    margin-top: 10px;   
+}
+
+footer address:last-child{
+    margin-bottom: 0px;
+}
+
+body, html{
+    height: 100%;
+}
+
+header{
+    background: url("img/perfil.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+}
+header h1, h2{
+    margin-top: 0;
+    margin-bottom :0;
+    position:relative;
+}
+.banner{
+    color: #fefefe;
+    background: rgba(25, 25, 25, 0.5);
+    padding: 20px;
+    width: 90%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .8s;
+}
+
+@media(min-width: 768px) {
+    .colunas-2{
+        width: 45%;
+        float: left;
+    }
+    #paineis-sobre{
+        margin-top: 0px;
+    }
+}
+
+@media(min-width: 992px){
+    .banner{
+        left: 0;
+        transform: translate(0, -80%);
+        width: 50%;
+    }
+    .bannerwrapper{
+        position:relative;
+        height: 100%;
+    }
+}
